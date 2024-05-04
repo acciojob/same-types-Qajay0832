@@ -8,9 +8,6 @@ function isSameType(value1, value2) {
 	else if(value1==NaN &&value2==NaN){
 		return true;
 	}
-	else if (value1==NaN || value2==NaN){
-		return false;
-	}
 	else{
 		return false;
 	}
